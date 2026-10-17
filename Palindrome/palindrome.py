@@ -15,7 +15,7 @@ else:
 
 
 #Two Pointers
-p1 = list("MALAYALA")
+p1 = list("MALAYALAM")
 
 left = 0
 right = len(p1) -1 

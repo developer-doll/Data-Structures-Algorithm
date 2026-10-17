@@ -74,11 +74,49 @@ services:
     command: ["python", "-u", "Factorial/factorial.py"]
 
 
+  first-largest-number:
+      build: .
+      image: dsa-python
+      working_dir: /app
+      volumes:
+        - .:/app
+      command: ["python", "-u", "Largest Number/largest.py"]
 
 
 
-  
+  second-largest-number:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Largest Number/second_largest.py"]
+
+
+  third-largest-number:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Largest Number/third_largest.py"]
 
 
 
+  flatten-nested-list:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "List/nested_list.py"]
 
+
+
+  remove-duplicates:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "List/remove_duplicates.py"]
