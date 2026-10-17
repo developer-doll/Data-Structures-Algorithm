@@ -11,9 +11,3 @@ for num in numbers:
     elif num > second and num != first:
         second = num
 print(second)
-
-
-
-
-
-
