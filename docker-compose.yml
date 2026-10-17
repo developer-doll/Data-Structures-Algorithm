@@ -1,0 +1,84 @@
+
+services:
+  reverse-string:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Reverse/reverse_string.py"]
+
+
+
+  reverse-sentence:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Reverse/reverse_sentence.py"]
+
+
+
+  palindrome:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Palindrome/palindrome.py"]
+
+
+  prime:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Prime Number/prime.py"]
+  
+
+  amstrong:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Amstrong Number/amstrong.py"]
+
+
+  anagram:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Anagram/anagram.py"]
+
+
+  fibonacci:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Fibonacci/fibonacci.py"]
+
+
+  factorial:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Factorial/factorial.py"]
+
+
+
+
+
+  
+
+
+
+
