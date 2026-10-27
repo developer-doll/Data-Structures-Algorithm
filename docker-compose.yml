@@ -120,3 +120,14 @@ services:
     volumes:
       - .:/app
     command: ["python", "-u", "List/remove_duplicates.py"]
+
+
+
+  missing-number:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", "Missing Numbers/missing_numbers.py"]
+
