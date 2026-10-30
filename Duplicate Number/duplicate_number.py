@@ -1,3 +1,14 @@
+#Nested For loop
+numbers = [1, 2, 2, 3, 1, 4, 3, 5]
+result = []
+
+for num in numbers:
+    if num not in result:
+        result.append(num)
+print(result)
+
+
+
 #For loop
 
 def for_duplicate(nums):
