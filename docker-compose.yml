@@ -140,3 +140,21 @@ services:
       - .:/app
     command: ["python", "-u", Duplicate Number/duplicate_number.py]
 
+ 
+  
+  2-sum:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+      - .:/app
+    command: ["python", "-u", Sums/2_sum.py]
+
+
+  3-sum:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+        - .:/app
+    command: ["python", "-u", Sums/3_sum.py]
