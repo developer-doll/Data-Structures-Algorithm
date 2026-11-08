@@ -129,7 +129,7 @@ services:
     working_dir: /app
     volumes:
       - .:/app
-    command: ["python", "-u", "Missing Numbers/missing_numbers.py"]
+    command: ["python", "-u", "Arrays & Strings/Missing Numbers/missing_numbers.py"]
 
 
   duplicate-number:
@@ -167,3 +167,12 @@ services:
     volumes:
         - .:/app
     command: ["python", "-u", "Arrays & Strings/Smaller Number/smaller_number.py"]
+
+  
+  minimum-time-points:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+        - .:/app
+    command: ["python", "-u", "Arrays & Strings/Minimum Time Visiting All Points/min_points.py"]
