@@ -176,3 +176,12 @@ services:
     volumes:
         - .:/app
     command: ["python", "-u", "Arrays & Strings/Minimum Time Visiting All Points/min_points.py"]
+
+
+  spiral-matrix:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+        - .:/app
+    command: ["python", "-u", "Arrays & Strings/Spiral Matrix/matrix.py"]
