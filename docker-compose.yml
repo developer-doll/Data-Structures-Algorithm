@@ -185,3 +185,13 @@ services:
     volumes:
         - .:/app
     command: ["python", "-u", "Arrays & Strings/Spiral Matrix/matrix.py"]
+
+
+  
+  island:
+    build: .
+    image: dsa-python
+    working_dir: /app
+    volumes:
+        - .:/app
+    command: ["python", "-u", "Arrays & Strings/Number of Islands/grid.py"]
